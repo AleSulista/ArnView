@@ -1,40 +1,43 @@
-# ArnView — Créditos
+# ArnView — Créditos e atribuições
 
-## Projeto
+## ArnView 0.4.0
 
-**ArnView**
-
-Criação, desenvolvimento, interface e integração para macOS:
+**Criação, desenvolvimento, interface, integração para macOS e direção do projeto:**
 
 **Alessandro Henriques Teixeira — Studio Arn**
 
-Copyright © 2026.
+Copyright © 2026 Alessandro Henriques Teixeira — Studio Arn.
 
-## Tecnologias e projetos de terceiros
+## Crédito do projeto
 
-O ArnView utiliza ou pode distribuir componentes provenientes de projetos
-independentes.
+Nos usos autorizados do código e dos elementos originais do ArnView, os avisos de autoria e copyright devem ser preservados. O crédito do projeto é:
 
-Entre eles:
+> **ArnView — criado e desenvolvido por Alessandro Henriques Teixeira — Studio Arn.**
 
-- Qt — interface gráfica e infraestrutura do aplicativo;
-- OpenCV — processamento de imagem e visão computacional;
-- NumPy — processamento numérico;
-- Pillow — manipulação de imagens em Python;
-- Tesseract OCR / pytesseract — reconhecimento óptico de caracteres;
-- rembg — remoção de fundo;
-- LaMa / IOPaint — reconstrução e remoção local de objetos;
-- Real-ESRGAN — super-resolução de imagens.
+Esta exigência refere-se aos elementos originais do ArnView e não substitui nem modifica as licenças dos componentes de terceiros.
 
-Cada componente permanece sujeito à licença, aos avisos de copyright e às
-condições definidas pelos respectivos autores e projetos.
+## Inteligência artificial local
 
-A presença de um componente no ArnView não transfere ao Studio Arn a autoria
-ou os direitos sobre esse componente.
+O ArnView 0.4.0 integra recursos de IA para processamento local. A distribuição completa pode ocupar vários gigabytes porque inclui ou prepara localmente frameworks, bibliotecas, modelos e motores necessários para executar essas funções no próprio computador, em vez de depender de uma IA online para o processamento principal dessas ferramentas.
 
-## ArnView
+## Tecnologias, IAs e projetos de terceiros
 
-O código, identidade, interface e integrações originais desenvolvidos
-especificamente para o ArnView são atribuídos a:
+O ArnView utiliza ou integra componentes provenientes de projetos independentes, incluindo:
+
+- **Qt 6** — interface gráfica e infraestrutura do aplicativo;
+- **Python 3.12** — execução dos módulos locais de IA;
+- **OpenCV** — processamento de imagem e visão computacional;
+- **NumPy** — processamento numérico;
+- **Pillow** — manipulação de imagens;
+- **Tesseract OCR / pytesseract** — reconhecimento óptico de caracteres;
+- **rembg** — remoção automática de fundo;
+- **LaMa / IOPaint** — reconstrução e remoção local de objetos;
+- **Real-ESRGAN** — super-resolução de imagens.
+
+Cada componente de terceiros permanece sujeito à sua própria licença, aos avisos de copyright e às condições definidas por seus respectivos autores e projetos. A presença ou integração desses componentes no ArnView não transfere ao Studio Arn sua autoria ou seus direitos.
+
+## Elementos originais do ArnView
+
+O código original, a identidade, a interface, a documentação, a organização do aplicativo e as integrações desenvolvidas especificamente para o ArnView são atribuídos a:
 
 **Alessandro Henriques Teixeira — Studio Arn**
