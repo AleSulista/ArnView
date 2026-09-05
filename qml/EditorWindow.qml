@@ -435,23 +435,29 @@ Window {
             ? "#A5ADB5"
             : editorWindow.arnBorder
 
-        ScrollView {
+        Flickable {
+            id: propertiesFlick
             anchors.fill: parent
-
             anchors.leftMargin: 12
-            anchors.rightMargin: 16
+            anchors.rightMargin: 8
             anchors.topMargin: 10
             anchors.bottomMargin: 10
 
             clip: true
+            flickableDirection: Flickable.VerticalFlick
+            boundsBehavior: Flickable.StopAtBounds
+
+            contentWidth: width
+            contentHeight: propertiesContent.implicitHeight + 80
+
+            ScrollBar.vertical: ScrollBar {
+                policy: ScrollBar.AsNeeded
+            }
 
             ColumnLayout {
-                width:
-                    Math.max(
-                        220,
-                        propertiesPanel.width - 34
-                    )
-
+                id: propertiesContent
+                width: Math.max(220, propertiesFlick.width - 14)
+                height: implicitHeight
                 spacing: 7
 
                 // =================================================
