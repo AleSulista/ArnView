@@ -4,6 +4,32 @@
 
 A versão **0.4.0** reúne um visualizador leve, o **ArnView Editor** e recursos de inteligência artificial executados **localmente no próprio Mac**.
 
+## Capturas de tela
+
+### ArnView Viewer
+
+![ArnView Viewer](screenshots/01-viewer.png)
+
+### Visualização limpa
+
+![ArnView Viewer - visualização limpa](screenshots/02-viewer-clean.png)
+
+### Editor — Ajustes
+
+![ArnView Editor - Ajustes](screenshots/03-editor-ajustes.png)
+
+### Editor — Texto
+
+![ArnView Editor - Texto](screenshots/04-editor-texto.png)
+
+### Editor — Recorte inteligente
+
+![ArnView Editor - Recorte](screenshots/05-editor-recorte.png)
+
+### Editor — Inteligência Artificial local
+
+![ArnView Editor - IA local](screenshots/06-editor-ia.png)
+
 ## IA local — por que o ArnView ocupa mais espaço
 
 O ArnView foi projetado para que seus principais recursos de inteligência artificial funcionem **localmente e offline**, sem depender de processamento em servidores externos e sem exigir créditos de API para essas funções.
