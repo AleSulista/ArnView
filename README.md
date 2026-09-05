@@ -1,10 +1,29 @@
 # ArnView 0.4.0
 
-ArnView é um visualizador e editor de imagens para macOS desenvolvido por
-Alessandro Henriques Teixeira — Studio Arn.
+**ArnView** é um visualizador e editor de imagens para macOS Intel desenvolvido por **Alessandro Henriques Teixeira — Studio Arn**.
 
-A versão 0.4.0 marca a separação entre o visualizador leve e o ArnView Editor,
-com ferramentas de edição e inteligência artificial local.
+A versão **0.4.0** reúne um visualizador leve, o **ArnView Editor** e recursos de inteligência artificial executados **localmente no próprio Mac**.
+
+## IA local — por que o ArnView ocupa mais espaço
+
+O ArnView foi projetado para que seus principais recursos de inteligência artificial funcionem **localmente e offline**, sem depender de processamento em servidores externos e sem exigir créditos de API para essas funções.
+
+Por isso, a distribuição completa do aplicativo é consideravelmente maior que a de um visualizador de imagens comum. O tamanho se deve principalmente aos motores de IA, bibliotecas Python, modelos, frameworks e demais dependências necessárias para executar o processamento diretamente no computador do usuário.
+
+**Em resumo: o ArnView é maior porque leva a IA dentro do aplicativo, em vez de enviar as imagens para uma IA online.**
+
+### Tecnologias e IAs utilizadas
+
+- **LaMa / IOPaint** — preenchimento inteligente e remoção local de objetos;
+- **rembg** — remoção automática de fundo;
+- **Real-ESRGAN** — super-resolução e aumento de resolução;
+- **OpenCV** — visão computacional, detecção e processamento de imagens;
+- **Tesseract OCR / pytesseract** — reconhecimento óptico de caracteres, incluindo português;
+- **NumPy** e **Pillow** — processamento e manipulação de imagens;
+- **Python 3.12** embarcado — execução dos módulos locais de IA;
+- **Qt 6** — interface gráfica e infraestrutura do aplicativo.
+
+Os projetos e bibliotecas de terceiros permanecem sujeitos às licenças e aos direitos de seus respectivos autores.
 
 ## ArnView Viewer
 
@@ -12,13 +31,13 @@ com ferramentas de edição e inteligência artificial local.
 - interface limpa e transparente;
 - navegação por imagens da mesma pasta;
 - miniaturas;
-- zoom por scroll/trackpad;
+- zoom por scroll e trackpad;
 - ajuste automático à tela;
 - tamanho real 1:1;
 - rotação;
 - modo tela cheia;
 - abertura por Finder, seletor e arrastar e soltar;
-- botão único Editar para acessar o ArnView Editor.
+- acesso ao ArnView Editor pelo botão **Editar**.
 
 ## ArnView Editor
 
@@ -39,14 +58,11 @@ com ferramentas de edição e inteligência artificial local.
 ### Texto
 
 - edição diretamente sobre a imagem;
-- escolha de fonte;
-- tamanho;
+- escolha de fonte e tamanho;
 - cores;
-- negrito;
-- itálico;
+- negrito e itálico;
 - contorno;
-- sombra;
-- distância e ângulo da sombra;
+- sombra, distância e ângulo;
 - opacidade;
 - rotação;
 - caixa móvel e redimensionável.
@@ -59,11 +75,7 @@ com ferramentas de edição e inteligência artificial local.
 - 9:16;
 - enquadramento auxiliado por detecção facial.
 
-## Inteligência Artificial Local
-
-O ArnView 0.4.0 prioriza processamento local e offline.
-
-Recursos integrados:
+### Recursos de IA local
 
 - remoção de objetos com LaMa;
 - remoção automática de fundo;
@@ -77,74 +89,29 @@ Recursos integrados:
 - OCR em português;
 - busca por imagens visualmente semelhantes.
 
-As ferramentas locais não necessitam de créditos de API para funcionar.
+## Privacidade
 
-## Proteção do original
+Os recursos locais descritos acima são processados no próprio computador. A arquitetura foi escolhida para permitir edição e IA sem exigir o envio das imagens do usuário para um serviço de IA online para essas operações.
 
-O ArnView trabalha sobre uma imagem de edição.
+## Versão e autoria
 
-Salvar não deve substituir silenciosamente o arquivo original.
+- **Produto:** ArnView
+- **Versão:** 0.4.0
+- **Ano:** 2026
+- **Criador e desenvolvedor:** **Alessandro Henriques Teixeira**
+- **Estúdio:** **Studio Arn**
+- **Criação, interface, integração macOS e desenvolvimento original:** **Alessandro Henriques Teixeira — Studio Arn**
 
-Quando necessário são criadas cópias como:
+## Crédito obrigatório
 
-- imagem-editado.jpg
-- imagem-editado-2.jpg
-- imagem-editado-3.jpg
+Nos usos do código original do ArnView que sejam autorizados pelo titular dos direitos, incluindo redistribuições, modificações e trabalhos derivados permitidos, os avisos de autoria e copyright devem ser preservados de forma visível.
 
-## Formatos
+O crédito exigido para os elementos originais do projeto é:
 
-O ArnView reconhece, conforme suporte do sistema e dos plugins disponíveis:
+> **ArnView — criado e desenvolvido por Alessandro Henriques Teixeira — Studio Arn.**
 
-- JPEG / JPG
-- PNG
-- WebP
-- BMP
-- GIF
-- TIFF
-- HEIC
-- HEIF
+Não é autorizada a remoção dos avisos de autoria e copyright dos elementos originais do ArnView. Esta exigência não altera as licenças dos componentes de terceiros, que continuam regidos por seus próprios termos.
 
-## Atalhos do visualizador
+Consulte `LICENSE` e `CREDITS.md`.
 
-- ⌘O — abrir imagem
-- ⌘S — salvar
-- ⌘Z — desfazer
-- ⇧⌘Z — refazer
-- ← / → — anterior / próxima
-- 0 ou Espaço — ajustar à tela
-- 1 — tamanho real
-- + / − — zoom
-- R — girar
-- B — alternar fundo
-- F — tela cheia
-- Esc — fechar
-
-## Desenvolvimento
-
-Projeto criado e desenvolvido por:
-
-**Alessandro Henriques Teixeira**  
-**Studio Arn**
-
-Versão: **0.4.0**  
-Ano: **2026**
-
-## Componentes de terceiros
-
-ArnView utiliza projetos e bibliotecas de terceiros, que permanecem sujeitos
-às suas respectivas licenças e direitos autorais, incluindo componentes como:
-
-- Qt
-- OpenCV
-- NumPy
-- Pillow
-- Tesseract OCR / pytesseract
-- rembg
-- IOPaint / LaMa
-- Real-ESRGAN
-
-Consulte `CREDITS.md` para os créditos técnicos.
-
-Copyright © 2026 Alessandro Henriques Teixeira — Studio Arn.
-Todos os direitos reservados sobre o código original do ArnView,
-observadas as licenças aplicáveis aos componentes de terceiros.
+Copyright © 2026 **Alessandro Henriques Teixeira — Studio Arn**. Todos os direitos reservados sobre os elementos originais do ArnView, observadas as licenças aplicáveis aos componentes de terceiros.
