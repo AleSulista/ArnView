@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Build
+build/
+*.app
+*.dmg
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+venv/
+
+# Backups
+*.bak
+*.backup-*
+*.before-*
+backup-ui-final-*/
+
+# Modelos e engines grandes
+*.pt
+*.pth
+*.onnx
+engines/realesrgan/extracted/
+engines/realesrgan/realesrgan-macos.zip
+
+# Arquivos temporários
+*.tmp
+*.log
