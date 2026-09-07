@@ -4,7 +4,7 @@ Este arquivo registra publicamente a evolução do ArnView sem expor o código-f
 
 ## 0.6.0 — edição proprietária
 
-**Status:** versão finalizada para macOS Intel (x86_64)
+**Status:** versão finalizada e publicada para macOS Intel (x86_64)
 
 A linha 0.6.x marca a transição do ArnView para um modelo proprietário e amplia de forma significativa a experiência de visualização, a interface de edição, o sistema de camadas e os recursos de inteligência artificial local.
 
@@ -55,7 +55,8 @@ A linha 0.6.x marca a transição do ArnView para um modelo proprietário e ampl
 - o código-fonte da nova linha não é publicado neste repositório público;
 - notas de versão, mudanças, recursos, créditos e informações de distribuição permanecem públicas;
 - componentes de terceiros continuam sujeitos às respectivas licenças;
-- o DMG da 0.6.0 foi preparado e validado para publicação na Release v0.6.0;
+- o arquivo **ArnView-0.6.0-Intel.dmg** foi publicado na Release oficial **v0.6.0**;
+- SHA-256 do DMG publicado: `8819d2d1b3e67429a6a52b90221ca1c0a010c66545037d7c192df2c82fa28222`;
 - a distribuição atual não possui Apple Developer ID nem notarização da Apple, podendo exigir o procedimento de abertura permitido pelo macOS para aplicativos obtidos fora da App Store.
 
 ## 0.4.0 — versão pública anterior
