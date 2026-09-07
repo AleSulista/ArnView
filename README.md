@@ -58,33 +58,49 @@ A versão 0.6.0 representa uma evolução importante do ArnView, com foco em edi
 - OCR;
 - recursos de busca e análise visual.
 
-## Capturas de tela
+## Capturas de tela — ArnView 0.6.0
 
-As capturas atuais da **0.6.0** estão sendo adicionadas ao repositório. A seleção mostra o visualizador ArnGlass, o editor por camadas, os recursos de IA e a ferramenta local de remoção de objetos.
+### Visualizador ArnGlass
+
+![ArnView 0.6.0 - Visualizador ArnGlass](screenshots/0.6.0/01-arnview-viewer.png)
+
+### Editor e sistema de camadas
+
+![ArnView 0.6.0 - Editor e camadas](screenshots/0.6.0/02-editor-camadas.png)
+
+### Inteligência artificial local
+
+![ArnView 0.6.0 - Inteligência artificial local](screenshots/0.6.0/03-inteligencia-artificial.png)
+
+### Remoção local de objetos com LaMa
+
+![ArnView 0.6.0 - Remoção de objetos com LaMa](screenshots/0.6.0/04-remover-objeto-lama.png)
+
+### Capturas históricas — ArnView 0.4.0
 
 As capturas abaixo documentam a versão pública anterior **0.4.0** e permanecem disponíveis como registro histórico.
 
-### ArnView Viewer — 0.4.0
+#### ArnView Viewer — 0.4.0
 
 ![ArnView Viewer](screenshots/01-viewer.png)
 
-### Visualização limpa — 0.4.0
+#### Visualização limpa — 0.4.0
 
 ![ArnView Viewer - visualização limpa](screenshots/02-viewer-clean.png)
 
-### Editor — Ajustes — 0.4.0
+#### Editor — Ajustes — 0.4.0
 
 ![ArnView Editor - Ajustes](screenshots/03-editor-ajustes.png)
 
-### Editor — Texto — 0.4.0
+#### Editor — Texto — 0.4.0
 
 ![ArnView Editor - Texto](screenshots/04-editor-texto.png)
 
-### Editor — Recorte — 0.4.0
+#### Editor — Recorte — 0.4.0
 
 ![ArnView Editor - Recorte](screenshots/05-editor-recorte.png)
 
-### Editor — IA local — 0.4.0
+#### Editor — IA local — 0.4.0
 
 ![ArnView Editor - IA local](screenshots/06-editor-ia.png)
 
