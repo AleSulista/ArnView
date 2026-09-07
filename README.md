@@ -4,9 +4,11 @@
 
 ## Situação atual do projeto
 
-A linha pública de código deste repositório corresponde ao **ArnView 0.4.0**. A partir da linha **0.6.x**, o ArnView passa a seguir um modelo **proprietário**: as informações de versão, melhorias, recursos, créditos e avisos continuam públicas, mas o código-fonte da nova linha não será publicado neste repositório.
+A linha pública de código deste repositório corresponde ao **ArnView 0.4.0**. A partir da linha **0.6.x**, o ArnView passa a seguir um modelo **proprietário**: as informações de versão, melhorias, recursos, créditos e avisos continuam públicas, mas o código-fonte da nova linha não é publicado neste repositório.
 
-O **ArnView 0.6.0 Proprietário** foi finalizado para **macOS Intel (x86_64)**. A distribuição binária será publicada separadamente na área de Releases quando o pacote de distribuição estiver pronto para publicação.
+O **ArnView 0.6.0 Proprietário** foi finalizado para **macOS Intel (x86_64)**. O DMG de distribuição foi preparado e validado e está em fase de publicação na Release **v0.6.0**.
+
+> **Importante:** a linha 0.6.x é distribuída como binário proprietário. O código-fonte público presente neste repositório continua representando a linha 0.4.0.
 
 ## ArnView 0.6.0 — principais mudanças e melhorias
 
@@ -57,6 +59,20 @@ A versão 0.6.0 representa uma evolução importante do ArnView, com foco em edi
 - aumento de resolução;
 - OCR;
 - recursos de busca e análise visual.
+
+## Instalação da versão 0.6.0
+
+A distribuição oficial para macOS Intel é feita por arquivo **DMG** na área de Releases.
+
+1. abra o DMG;
+2. arraste **ArnView.app** para **Applications / Aplicativos**;
+3. abra o ArnView pela pasta Aplicativos.
+
+### Aviso do Gatekeeper
+
+A versão 0.6.0 atual não possui assinatura **Apple Developer ID** nem notarização pela Apple. Por isso, em alguns Macs o macOS poderá exibir um aviso de desenvolvedor não identificado na primeira execução. Isso é uma limitação da forma atual de assinatura e não significa, por si só, que o arquivo esteja corrompido.
+
+Quando necessário, use o procedimento de abertura permitido pelo próprio macOS para aplicativos obtidos fora da App Store. Futuras distribuições poderão adotar Developer ID e notarização.
 
 ## Capturas de tela — ArnView 0.6.0 Proprietário
 
@@ -121,6 +137,12 @@ Quando uma função utiliza um mecanismo local integrado, o processamento ocorre
 - builds para Apple Silicon e Windows poderão ser tratados separadamente no futuro;
 - compatibilidade em outras arquiteturas não deve ser presumida como oficial até que exista uma versão específica testada.
 
+## Integridade e distribuição
+
+O pacote de distribuição deve ser obtido preferencialmente pela área oficial de Releases deste repositório. A integridade do DMG da versão 0.6.0 foi validada durante o processo de empacotamento antes da publicação.
+
+Para cada release binária, recomenda-se preservar o nome da versão, os avisos de autoria e os arquivos de licenças e atribuições de terceiros que acompanham a distribuição.
+
 ## Licenciamento
 
 - **ArnView 0.4.0 e conteúdo anteriormente publicado:** permanecem sujeitos aos termos e avisos existentes na versão em que foram disponibilizados;
@@ -137,4 +159,4 @@ A mudança de modelo de distribuição não altera nem substitui as licenças do
 
 Copyright © 2026 **Alessandro Henriques Teixeira — Studio Arn**. Todos os direitos reservados sobre os elementos originais do ArnView, observadas as licenças aplicáveis aos componentes de terceiros.
 
-Consulte também [`CHANGELOG.md`](CHANGELOG.md), [`CREDITS.md`](CREDITS.md), [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md), [`PROPRIETARY-NOTICE.md`](PROPRIETARY-NOTICE.md) e `LICENSE`.
+Consulte também [`CHANGELOG.md`](CHANGELOG.md), [`CREDITS.md`](CREDITS.md), [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md), [`PROPRIETARY-NOTICE.md`](PROPRIETARY-NOTICE.md), [`RELEASE-NOTES-0.6.0.md`](RELEASE-NOTES-0.6.0.md) e `LICENSE`.
