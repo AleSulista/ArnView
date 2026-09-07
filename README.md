@@ -58,23 +58,23 @@ A versão 0.6.0 representa uma evolução importante do ArnView, com foco em edi
 - OCR;
 - recursos de busca e análise visual.
 
-## Capturas de tela — ArnView 0.6.0
+## Capturas de tela — ArnView 0.6.0 Proprietário
 
-### Visualizador ArnGlass
+### Visualizador ArnGlass — ArnView 0.6.0 Proprietário
 
-![ArnView 0.6.0 - Visualizador ArnGlass](screenshots/0.6.0/01-arnview-viewer.png)
+![ArnView 0.6.0 Proprietário - Visualizador ArnGlass](screenshots/0.6.0/01-arnview-viewer.png)
 
-### Editor e sistema de camadas
+### Editor e sistema de camadas — ArnView 0.6.0 Proprietário
 
-![ArnView 0.6.0 - Editor e camadas](screenshots/0.6.0/02-editor-camadas.png)
+![ArnView 0.6.0 Proprietário - Editor e camadas](screenshots/0.6.0/02-editor-camadas.png)
 
-### Inteligência artificial local
+### Inteligência artificial local — ArnView 0.6.0 Proprietário
 
-![ArnView 0.6.0 - Inteligência artificial local](screenshots/0.6.0/03-inteligencia-artificial.png)
+![ArnView 0.6.0 Proprietário - Inteligência artificial local](screenshots/0.6.0/03-inteligencia-artificial.png)
 
-### Remoção local de objetos com LaMa
+### Remoção local de objetos com LaMa — ArnView 0.6.0 Proprietário
 
-![ArnView 0.6.0 - Remoção de objetos com LaMa](screenshots/0.6.0/04-remover-objeto-lama.png)
+![ArnView 0.6.0 Proprietário - Remoção de objetos com LaMa](screenshots/0.6.0/04-remover-objeto-lama.png)
 
 ### Capturas históricas — ArnView 0.4.0
 
