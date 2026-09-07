@@ -4,7 +4,7 @@ Este arquivo registra publicamente a evolução do ArnView sem expor o código-f
 
 ## 0.6.0 — edição proprietária
 
-**Status:** em preparação para distribuição
+**Status:** versão finalizada para macOS Intel (x86_64)
 
 A linha 0.6.x marca a transição do ArnView para um modelo proprietário e amplia de forma significativa a interface de edição, o sistema de camadas e os recursos de inteligência artificial local.
 
@@ -18,7 +18,9 @@ A linha 0.6.x marca a transição do ArnView para um modelo proprietário e ampl
 - controles inferiores mais compactos no painel de camadas;
 - melhorias no controle de transparência/opacidade;
 - histórico de alterações com identificação das operações realizadas;
-- refinamentos de usabilidade e fluidez nos ajustes de imagem.
+- fluxo de desfazer/refazer preservado;
+- refinamentos de usabilidade e fluidez nos ajustes de imagem;
+- melhoria de fluidez do pincel de desfoque.
 
 ### Inteligência artificial e visão computacional
 
@@ -27,14 +29,20 @@ A linha 0.6.x marca a transição do ArnView para um modelo proprietário e ampl
 - integração de **MODNet/Core ML** para processamento de pessoas;
 - uso de **Apple Vision Foreground** para cenas e objetos compatíveis;
 - detectores e auxiliares nativos para pessoas, rostos e primeiro plano;
+- melhoria automática de imagem;
+- redução de ruído;
+- recuperação de fotos escuras;
+- restauração fotográfica;
+- melhoria de rostos;
 - manutenção do foco em processamento local/offline sempre que a função correspondente dispõe de mecanismo integrado.
 
 ### Distribuição
 
 - a linha 0.6.x passa a ser proprietária;
 - o código-fonte da nova linha não será publicado neste repositório público;
-- notas de versão, mudanças, recursos e informações de distribuição permanecem públicas;
-- componentes de terceiros continuam sujeitos às respectivas licenças.
+- notas de versão, mudanças, recursos, créditos e informações de distribuição permanecem públicas;
+- componentes de terceiros continuam sujeitos às respectivas licenças;
+- a distribuição binária da 0.6.0 será publicada separadamente quando o pacote de distribuição estiver pronto para publicação.
 
 ## 0.4.0 — versão pública anterior
 
