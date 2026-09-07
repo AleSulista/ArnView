@@ -2,6 +2,18 @@
 
 O **ArnView 0.6.0** é a primeira versão da nova linha proprietária do projeto para **macOS Intel (x86_64)**.
 
+## Download oficial
+
+Arquivo: **ArnView-0.6.0-Intel.dmg**
+
+Release: **v0.6.0**
+
+Tamanho do arquivo publicado: **1.195.832.688 bytes**
+
+SHA-256:
+
+`8819d2d1b3e67429a6a52b90221ca1c0a010c66545037d7c192df2c82fa28222`
+
 ## Destaques
 
 - visualizador integrado ao editor, permitindo trabalhar com a imagem sem depender de ferramentas externas para os recursos oferecidos pelo ArnView;
