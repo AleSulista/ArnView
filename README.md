@@ -1,10 +1,64 @@
-# ArnView 0.4.0
+# ArnView
 
 **ArnView** é um visualizador e editor de imagens para macOS Intel desenvolvido por **Alessandro Henriques Teixeira — Studio Arn**.
 
-A versão **0.4.0** reúne um visualizador leve, o **ArnView Editor** e recursos de inteligência artificial executados **localmente no próprio Mac**.
+## Situação atual do projeto
 
-## Capturas de tela
+A linha pública deste repositório corresponde ao **ArnView 0.4.0**. A partir da linha **0.6.x**, o ArnView passa a seguir um modelo **proprietário**: as informações de versão, melhorias e recursos continuam públicas, mas o código-fonte da nova linha não será publicado neste repositório.
+
+O **ArnView 0.6.0 Proprietário** está em preparação para distribuição em macOS Intel.
+
+## ArnView 0.6.0 — principais mudanças e melhorias
+
+A versão 0.6.0 representa uma evolução importante do visualizador e editor, com foco em edição por camadas, interface mais limpa e recursos de inteligência artificial executados localmente.
+
+### Interface e edição
+
+- nova interface visual **ArnGlass**;
+- painel de camadas redesenhado e mais próximo do fluxo de editores profissionais;
+- seleção e manipulação de camadas diretamente na área principal de edição;
+- movimentação, redimensionamento e organização visual das camadas;
+- reorganização da ordem das camadas;
+- controles inferiores do painel de camadas mais compactos;
+- transparência/opacidade de camadas aprimorada;
+- histórico de alterações com identificação das operações realizadas;
+- manutenção do fluxo de desfazer e refazer;
+- ajustes de imagem com resposta mais fluida.
+
+### Inteligência artificial local
+
+- **remoção de objetos com LaMa**, executada localmente;
+- remoção inteligente e automática de fundo;
+- processamento de pessoas com **MODNet/Core ML**;
+- segmentação de cenas e objetos com tecnologias nativas do macOS, incluindo **Apple Vision Foreground**;
+- detectores e auxiliares nativos para pessoas, rostos, primeiro plano e outras operações de visão computacional;
+- processamento local, sem necessidade de enviar a imagem para um serviço externo nas funções suportadas offline.
+
+### Recursos já presentes na linha ArnView
+
+- visualização rápida de imagens;
+- navegação entre imagens da mesma pasta;
+- miniaturas;
+- zoom por scroll e trackpad;
+- ajuste automático à tela e visualização 1:1;
+- rotação e tela cheia;
+- abertura pelo Finder, seletor e arrastar e soltar;
+- editor integrado;
+- brilho, contraste, saturação, temperatura e matiz;
+- preto e branco, sépia e melhoria automática;
+- texto sobre a imagem com controles de estilo;
+- recorte em proporções comuns;
+- redução de ruído;
+- recuperação de fotos escuras;
+- restauração fotográfica;
+- melhoria de rostos;
+- aumento de resolução;
+- OCR;
+- recursos de busca e análise visual.
+
+## Capturas de tela da versão pública 0.4.0
+
+As imagens abaixo documentam a versão pública anterior. As capturas da interface 0.6.0 serão publicadas separadamente quando a nova distribuição estiver finalizada.
 
 ### ArnView Viewer
 
@@ -30,114 +84,30 @@ A versão **0.4.0** reúne um visualizador leve, o **ArnView Editor** e recursos
 
 ![ArnView Editor - IA local](screenshots/06-editor-ia.png)
 
-## IA local — por que o ArnView ocupa mais espaço
+## IA local e tamanho do aplicativo
 
-O ArnView foi projetado para que seus principais recursos de inteligência artificial funcionem **localmente e offline**, sem depender de processamento em servidores externos e sem exigir créditos de API para essas funções.
+O ArnView foi projetado para que seus principais recursos de inteligência artificial funcionem **localmente e offline**. A distribuição completa pode ser maior que a de um visualizador convencional porque inclui modelos, frameworks, bibliotecas e mecanismos necessários para o processamento no próprio computador.
 
-Por isso, a distribuição completa do aplicativo é consideravelmente maior que a de um visualizador de imagens comum. O tamanho se deve principalmente aos motores de IA, bibliotecas Python, modelos, frameworks e demais dependências necessárias para executar o processamento diretamente no computador do usuário.
-
-**Em resumo: o ArnView é maior porque leva a IA dentro do aplicativo, em vez de enviar as imagens para uma IA online.**
-
-### Tecnologias e IAs utilizadas
-
-- **LaMa / IOPaint** — preenchimento inteligente e remoção local de objetos;
-- **rembg** — remoção automática de fundo;
-- **Real-ESRGAN** — super-resolução e aumento de resolução;
-- **OpenCV** — visão computacional, detecção e processamento de imagens;
-- **Tesseract OCR / pytesseract** — reconhecimento óptico de caracteres, incluindo português;
-- **NumPy** e **Pillow** — processamento e manipulação de imagens;
-- **Python 3.12** embarcado — execução dos módulos locais de IA;
-- **Qt 6** — interface gráfica e infraestrutura do aplicativo.
-
-Os projetos e bibliotecas de terceiros permanecem sujeitos às licenças e aos direitos de seus respectivos autores.
-
-## ArnView Viewer
-
-- visualização rápida de imagens;
-- interface limpa e transparente;
-- navegação por imagens da mesma pasta;
-- miniaturas;
-- zoom por scroll e trackpad;
-- ajuste automático à tela;
-- tamanho real 1:1;
-- rotação;
-- modo tela cheia;
-- abertura por Finder, seletor e arrastar e soltar;
-- acesso ao ArnView Editor pelo botão **Editar**.
-
-## ArnView Editor
-
-### Ajustes
-
-- brilho;
-- contraste;
-- saturação;
-- temperatura;
-- matiz;
-- preto e branco;
-- sépia;
-- melhoria automática;
-- rotação;
-- espelhamento;
-- desfazer e refazer.
-
-### Texto
-
-- edição diretamente sobre a imagem;
-- escolha de fonte e tamanho;
-- cores;
-- negrito e itálico;
-- contorno;
-- sombra, distância e ângulo;
-- opacidade;
-- rotação;
-- caixa móvel e redimensionável.
-
-### Recorte inteligente
-
-- 1:1;
-- 4:5;
-- 16:9;
-- 9:16;
-- enquadramento auxiliado por detecção facial.
-
-### Recursos de IA local
-
-- remoção de objetos com LaMa;
-- remoção automática de fundo;
-- melhoria inteligente;
-- redução de ruído;
-- recuperação de fotos escuras;
-- restauração fotográfica;
-- melhoria de rostos;
-- desfoque automático de rostos;
-- aumento de resolução 2× e 4× com Real-ESRGAN;
-- OCR em português;
-- busca por imagens visualmente semelhantes.
+Entre as tecnologias utilizadas ao longo do projeto estão LaMa, MODNet, Core ML, Apple Vision, OpenCV, Real-ESRGAN, Tesseract OCR, NumPy, Pillow, Python embarcado e Qt 6. Componentes de terceiros permanecem sujeitos às licenças e aos direitos de seus respectivos autores.
 
 ## Privacidade
 
-Os recursos locais descritos acima são processados no próprio computador. A arquitetura foi escolhida para permitir edição e IA sem exigir o envio das imagens do usuário para um serviço de IA online para essas operações.
+Os recursos locais são processados no próprio computador sempre que a função correspondente utiliza o mecanismo offline integrado. Isso permite realizar grande parte da edição e do processamento de IA sem enviar as imagens do usuário a um serviço externo.
 
-## Versão e autoria
+## Licenciamento
+
+- **ArnView 0.4.0 e conteúdo anteriormente publicado:** permanecem sujeitos aos termos e avisos existentes na versão em que foram disponibilizados.
+- **ArnView 0.6.x e versões proprietárias posteriores:** código-fonte não disponibilizado publicamente; todos os direitos sobre os elementos originais reservados ao autor, sem prejuízo das licenças aplicáveis aos componentes de terceiros.
+
+A mudança de modelo de distribuição não altera as licenças dos projetos, frameworks, modelos ou bibliotecas de terceiros incorporados ou utilizados pelo ArnView.
+
+## Autoria
 
 - **Produto:** ArnView
-- **Versão:** 0.4.0
-- **Ano:** 2026
 - **Criador e desenvolvedor:** **Alessandro Henriques Teixeira**
 - **Estúdio:** **Studio Arn**
-- **Criação, interface, integração macOS e desenvolvimento original:** **Alessandro Henriques Teixeira — Studio Arn**
-
-## Crédito obrigatório
-
-Nos usos do código original do ArnView que sejam autorizados pelo titular dos direitos, incluindo redistribuições, modificações e trabalhos derivados permitidos, os avisos de autoria e copyright devem ser preservados de forma visível.
-
-O crédito exigido para os elementos originais do projeto é:
-
-> **ArnView — criado e desenvolvido por Alessandro Henriques Teixeira — Studio Arn.**
-
-Não é autorizada a remoção dos avisos de autoria e copyright dos elementos originais do ArnView. Esta exigência não altera as licenças dos componentes de terceiros, que continuam regidos por seus próprios termos.
-
-Consulte `LICENSE` e `CREDITS.md`.
+- **Plataforma principal desta linha:** macOS Intel
 
 Copyright © 2026 **Alessandro Henriques Teixeira — Studio Arn**. Todos os direitos reservados sobre os elementos originais do ArnView, observadas as licenças aplicáveis aos componentes de terceiros.
+
+Consulte também [`CHANGELOG.md`](CHANGELOG.md), `LICENSE` e `CREDITS.md`.
