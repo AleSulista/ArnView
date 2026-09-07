@@ -8,7 +8,7 @@ O projeto combina visualização rápida e edição integrada no mesmo ambiente:
 
 A linha pública de código deste repositório corresponde ao **ArnView 0.4.0**. A partir da linha **0.6.x**, o ArnView passa a seguir um modelo **proprietário**: as informações de versão, melhorias, recursos, créditos e avisos continuam públicas, mas o código-fonte da nova linha não é publicado neste repositório.
 
-O **ArnView 0.6.0 Proprietário** foi finalizado para **macOS Intel (x86_64)**. O DMG de distribuição foi preparado, verificado e está em fase de publicação na Release **v0.6.0**.
+O **ArnView 0.6.0 Proprietário** foi finalizado para **macOS Intel (x86_64)** e está disponível na Release oficial **v0.6.0** deste repositório.
 
 > **Importante:** a linha 0.6.x é distribuída como binário proprietário. O código-fonte público presente neste repositório continua representando a linha 0.4.0.
 
@@ -73,13 +73,19 @@ A versão 0.6.0 representa uma evolução importante do ArnView, com foco em edi
 - melhoria de rostos;
 - processamento local/offline nas funções que utilizam os mecanismos integrados.
 
-## Instalação da versão 0.6.0
+## Download e instalação da versão 0.6.0
 
-A distribuição oficial para macOS Intel é feita por arquivo **DMG** na área de Releases.
+O arquivo oficial é **ArnView-0.6.0-Intel.dmg**, disponível na Release **v0.6.0**.
 
 1. abra o DMG;
 2. arraste **ArnView.app** para **Applications / Aplicativos**;
 3. abra o ArnView pela pasta Aplicativos.
+
+### Integridade do arquivo
+
+**SHA-256:** `8819d2d1b3e67429a6a52b90221ca1c0a010c66545037d7c192df2c82fa28222`
+
+Esse valor corresponde ao DMG publicado na Release v0.6.0 e pode ser usado para verificar a integridade do download.
 
 ### Aviso do Gatekeeper
 
@@ -152,7 +158,7 @@ Quando uma função utiliza um mecanismo local integrado, o processamento ocorre
 
 ## Integridade e distribuição
 
-O pacote de distribuição deve ser obtido preferencialmente pela área oficial de Releases deste repositório. A integridade do DMG da versão 0.6.0 foi validada durante o processo de empacotamento antes da publicação.
+O pacote de distribuição deve ser obtido preferencialmente pela área oficial de Releases deste repositório. A integridade do DMG da versão 0.6.0 foi validada durante o processo de empacotamento e o hash SHA-256 do arquivo publicado está documentado acima.
 
 Para cada release binária, recomenda-se preservar o nome da versão, os avisos de autoria e os arquivos de licenças e atribuições de terceiros que acompanham a distribuição.
 
