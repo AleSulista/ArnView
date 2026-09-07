@@ -2,21 +2,45 @@
 
 **ArnView** é um visualizador e editor de imagens para macOS Intel desenvolvido por **Alessandro Henriques Teixeira — Studio Arn**.
 
+O projeto combina visualização rápida e edição integrada no mesmo ambiente: a imagem pode ser aberta, inspecionada, ampliada e trabalhada diretamente no ArnView, sem depender de ferramentas externas para as operações oferecidas pelo aplicativo.
+
 ## Situação atual do projeto
 
 A linha pública de código deste repositório corresponde ao **ArnView 0.4.0**. A partir da linha **0.6.x**, o ArnView passa a seguir um modelo **proprietário**: as informações de versão, melhorias, recursos, créditos e avisos continuam públicas, mas o código-fonte da nova linha não é publicado neste repositório.
 
-O **ArnView 0.6.0 Proprietário** foi finalizado para **macOS Intel (x86_64)**. O DMG de distribuição foi preparado e validado e está em fase de publicação na Release **v0.6.0**.
+O **ArnView 0.6.0 Proprietário** foi finalizado para **macOS Intel (x86_64)**. O DMG de distribuição foi preparado, verificado e está em fase de publicação na Release **v0.6.0**.
 
 > **Importante:** a linha 0.6.x é distribuída como binário proprietário. O código-fonte público presente neste repositório continua representando a linha 0.4.0.
+
+## Conceito do visualizador
+
+O visualizador do ArnView foi inspirado na experiência simples, direta e rápida dos antigos visualizadores de imagens do Google, reinterpretada para um aplicativo moderno no macOS. Essa referência é apenas de experiência de uso; o ArnView é um projeto independente, sem afiliação, endosso ou vínculo com o Google.
+
+Um dos destaques do visualizador é o **zoom de até 3200%**, permitindo inspeção extrema da imagem com alta nitidez visual durante a ampliação.
+
+Mais do que visualizar, o ArnView permite **trabalhar diretamente com a imagem aberta**: ajustes, edição, camadas, recorte, texto e recursos de inteligência artificial podem ser acessados dentro do próprio aplicativo, sem precisar encaminhar a imagem para um editor externo.
 
 ## ArnView 0.6.0 — principais mudanças e melhorias
 
 A versão 0.6.0 representa uma evolução importante do ArnView, com foco em edição por camadas, interface mais limpa, manipulação direta dos elementos e recursos de inteligência artificial executados localmente.
 
+### Visualizador e fluxo integrado
+
+- visualização rápida de imagens;
+- navegação entre imagens da mesma pasta;
+- faixa de miniaturas;
+- **zoom de até 3200%**;
+- zoom por scroll e trackpad;
+- visualização 1:1;
+- rotação e tela cheia;
+- abertura pelo Finder, seletor e arrastar e soltar;
+- acesso direto às ferramentas de edição a partir da imagem visualizada;
+- trabalho com a imagem sem depender de ferramentas externas para os recursos integrados ao ArnView.
+
 ### Interface e edição
 
 - nova interface visual **ArnGlass**;
+- editor integrado ao fluxo do visualizador;
 - painel de camadas redesenhado;
 - seleção de camadas diretamente na área principal de edição;
 - movimentação e redimensionamento de camadas na área de trabalho;
@@ -26,7 +50,14 @@ A versão 0.6.0 representa uma evolução importante do ArnView, com foco em edi
 - histórico de alterações com identificação das operações realizadas;
 - fluxo de desfazer e refazer preservado;
 - pincel de desfoque com resposta mais fluida;
-- ajustes de imagem com controles contínuos.
+- ajustes de imagem com controles contínuos;
+- brilho, contraste, saturação, temperatura e matiz;
+- preto e branco e sépia;
+- texto sobre a imagem;
+- recorte;
+- aumento de resolução;
+- OCR;
+- recursos de busca e análise visual.
 
 ### Inteligência artificial local
 
@@ -41,24 +72,6 @@ A versão 0.6.0 representa uma evolução importante do ArnView, com foco em edi
 - restauração fotográfica;
 - melhoria de rostos;
 - processamento local/offline nas funções que utilizam os mecanismos integrados.
-
-### Visualizador e ferramentas
-
-- visualização rápida de imagens;
-- navegação entre imagens da mesma pasta;
-- faixa de miniaturas;
-- zoom por scroll e trackpad;
-- visualização 1:1;
-- rotação e tela cheia;
-- abertura pelo Finder, seletor e arrastar e soltar;
-- editor integrado;
-- brilho, contraste, saturação, temperatura e matiz;
-- preto e branco e sépia;
-- texto sobre a imagem;
-- recorte;
-- aumento de resolução;
-- OCR;
-- recursos de busca e análise visual.
 
 ## Instalação da versão 0.6.0
 
