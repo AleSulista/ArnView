@@ -91,34 +91,31 @@ Entre as tecnologias empregadas na distribuição estão:
 
 Os componentes de terceiros permanecem sujeitos às licenças de seus respectivos autores e projetos.
 
-## Capturas de tela
+## Capturas de tela — ArnView 0.7.9
 
 ### Visualizador ArnGlass
 
+Interface principal com foco na imagem, controles compactos, navegação por miniaturas, zoom, rotação e tela cheia.
+
 ![ArnView 0.7.9 — Visualizador ArnGlass](screenshots/0.7.9/01-arnview-079-visualizador.png)
 
-### ArnView Editor
+### Editor e seleção inteligente
 
-![ArnView 0.7.9 — Editor](screenshots/0.7.9/02-arnview-079-editor.png)
+Editor integrado com ferramentas de seleção, camadas, ajustes e processamento visual.
 
-> A galeria será atualizada com as capturas finais da versão 0.7.9.
+![ArnView 0.7.9 — Editor e seleção inteligente](screenshots/0.7.9/02-arnview-079-editor-selecao.png)
 
-## Instalação
+### Melhoria automática
 
-1. Baixe `ArnView-0.7.9-Intel.dmg` na área de Releases.
-2. Abra o DMG.
-3. Execute o ArnView ou copie o aplicativo para a pasta Aplicativos.
+Ferramentas inteligentes integradas ao histórico de edição, incluindo melhoria automática, redução de ruído, restauração e outros recursos locais.
 
-A distribuição atual utiliza assinatura ad-hoc e não possui Apple Developer ID/notarização. Dependendo das configurações do Gatekeeper, o macOS pode exigir **botão direito → Abrir** na primeira execução.
+![ArnView 0.7.9 — Melhoria automática](screenshots/0.7.9/03-arnview-079-melhoria-automatica.png)
 
-## Compatibilidade
+### Camadas, composição e remoção de fundo
 
-A distribuição publicada da versão 0.7.9 é específica para:
+Sistema de camadas com movimentação, redimensionamento, composição de imagens, seleção e remoção inteligente de fundo.
 
-- macOS em computadores Intel;
-- arquitetura **x86_64**.
-
-Apple Silicon e Windows exigem builds próprios e não fazem parte deste pacote.
+![ArnView 0.7.9 — Camadas e remoção de fundo](screenshots/0.7.9/04-arnview-079-camadas-remover-fundo.png)
 
 ## Privacidade e processamento local
 
