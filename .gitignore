@@ -1,4 +1,21 @@
 .DS_Store
+
+# Este repositório público é de distribuição/documentação.
+# O código-fonte proprietário do ArnView 0.6.x/0.7.x não deve ser publicado aqui.
+src/
+qml/
+packaging/
+CMakeLists.txt
+*.cpp
+*.cc
+*.cxx
+*.h
+*.hpp
+*.mm
+*.m
+*.py
+
+# Builds e artefatos locais
 build/
 cmake-build-*/
 CMakeFiles/
@@ -8,6 +25,8 @@ CMakeCache.txt
 *.app
 *.dmg
 *.zip
+
+# Ambientes, modelos e caches
 .venv/
 .venv-*/
 __pycache__/
@@ -15,9 +34,14 @@ __pycache__/
 *.pt
 *.pth
 *.onnx
+*.mlmodel
+*.mlpackage/
+*.mlmodelc/
 .cache/
 models/
-engines/realesrgan/extracted/
+engines/
+
+# Backups e temporários
 *.backup-*
 *.bak
 *.before-*
