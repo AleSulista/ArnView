@@ -95,27 +95,27 @@ Os componentes de terceiros permanecem sujeitos às licenças de seus respectivo
 
 ### Visualizador ArnGlass
 
-Interface principal com foco na imagem, controles compactos, navegação por miniaturas, zoom, rotação e tela cheia.
+A tela principal do ArnView foi pensada para deixar a imagem em primeiro plano. Neste exemplo aparecem a barra superior translúcida, controle de zoom em **104%**, acesso rápido a **1:1**, rotação, **Editar**, **Tela cheia** e **Fechar**, além da faixa inferior de miniaturas para navegar entre as imagens da mesma pasta sem sair do visualizador.
 
-![ArnView 0.7.9 — Visualizador ArnGlass](screenshots/0.7.9/01-arnview-079-visualizador.png)
+![ArnView 0.7.9 — Visualizador ArnGlass](screenshots/0.7.9/04-arnview-079-camadas-remover-fundo.png)
 
-### Editor e seleção inteligente
+### Seleção inteligente no editor
 
-Editor integrado com ferramentas de seleção, camadas, ajustes e processamento visual.
+O editor mostra a ferramenta de seleção inteligente aplicada diretamente sobre o assunto principal da imagem. A área reconhecida aparece destacada em verde, permitindo trabalhar com o objeto selecionado dentro do próprio fluxo de edição. À direita permanecem o painel de **Camadas** e os controles de opacidade e composição, enquanto a barra lateral concentra as ferramentas de edição e IA.
 
-![ArnView 0.7.9 — Editor e seleção inteligente](screenshots/0.7.9/02-arnview-079-editor-selecao.png)
+![ArnView 0.7.9 — Seleção inteligente](screenshots/0.7.9/03-arnview-079-melhoria-automatica.png)
 
-### Melhoria automática
+### Melhoria automática e histórico
 
-Ferramentas inteligentes integradas ao histórico de edição, incluindo melhoria automática, redução de ruído, restauração e outros recursos locais.
+Neste exemplo, a ferramenta **Melhoria automática** foi aplicada à imagem e registrada no histórico do editor. O menu de histórico mostra a imagem aberta e a operação executada, permitindo acompanhar as alterações realizadas durante a edição. A melhoria atua diretamente sobre a imagem preservando o fluxo normal de camadas e edição.
 
-![ArnView 0.7.9 — Melhoria automática](screenshots/0.7.9/03-arnview-079-melhoria-automatica.png)
+![ArnView 0.7.9 — Melhoria automática e histórico](screenshots/0.7.9/02-arnview-079-editor-selecao.png)
 
-### Camadas, composição e remoção de fundo
+### Camadas, composição e remover fundo
 
-Sistema de camadas com movimentação, redimensionamento, composição de imagens, seleção e remoção inteligente de fundo.
+O ArnView também permite composições com várias imagens dentro do mesmo projeto. Neste exemplo há diferentes elementos adicionados ao editor, uma camada selecionada com caixa de transformação e alças de redimensionamento, painel de camadas à direita e histórico exibindo operações como **Imagem adicionada como camada**, **Camada redimensionada**, **Camada movida** e **Remover fundo**. A captura demonstra a integração entre composição, transformação, histórico e ferramentas inteligentes dentro do mesmo editor.
 
-![ArnView 0.7.9 — Camadas e remoção de fundo](screenshots/0.7.9/04-arnview-079-camadas-remover-fundo.png)
+![ArnView 0.7.9 — Camadas, composição e remover fundo](screenshots/0.7.9/01-arnview-079-visualizador.png)
 
 ## Privacidade e processamento local
 
