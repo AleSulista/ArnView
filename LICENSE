@@ -1,51 +1,46 @@
-ArnView — Licença dos elementos originais
-Versão 0.4.0
+ArnView — Licença Proprietária
+Versão 0.7.9
 
 Copyright © 2026 Alessandro Henriques Teixeira — Studio Arn.
-Todos os direitos reservados.
+Todos os direitos reservados sobre os elementos originais do ArnView.
 
 1. ESCOPO
-Esta licença cobre somente o código, identidade visual, documentação, interface,
-integrações e demais elementos originais produzidos especificamente para o ArnView.
-Componentes, bibliotecas, modelos e ferramentas de terceiros permanecem sujeitos
-às suas próprias licenças e condições.
+Esta licença se aplica aos elementos originais desenvolvidos especificamente para o ArnView 0.7.9 e para as linhas proprietárias posteriores, incluindo código, interface, identidade visual, documentação, integrações e organização do aplicativo.
 
-2. CÓDIGO-FONTE PÚBLICO
-A disponibilização do código-fonte em repositório público permite sua consulta e
-estudo, mas não coloca o ArnView em domínio público e não concede, por si só,
-autorização para copiar, redistribuir, relicenciar, vender, sublicenciar ou explorar
-comercialmente os elementos originais do ArnView.
+Componentes, frameworks, bibliotecas, modelos, pesos de IA e ferramentas de terceiros não são relicenciados por este documento e permanecem sujeitos às suas próprias licenças, avisos e condições.
 
-3. USO COMERCIAL PROIBIDO SEM AUTORIZAÇÃO
-É proibido utilizar, vender, revender, licenciar, sublicenciar, distribuir mediante
-pagamento, incorporar em produto ou serviço comercial, ou obter vantagem econômica
-direta com os elementos originais do ArnView sem autorização prévia e expressa do
-titular dos direitos.
+2. MODELO PROPRIETÁRIO
+O ArnView 0.7.9 é software proprietário. A disponibilização do aplicativo, de um instalador, DMG, documentação, capturas de tela ou outros materiais públicos não coloca o produto em domínio público e não concede automaticamente licença sobre o código-fonte ou sobre os elementos originais do ArnView.
 
-O autor poderá conceder separadamente licenças comerciais, exclusivas ou não,
-mediante negociação e acordo específico. A publicação deste repositório não limita
-o direito do autor de negociar, licenciar ou comercializar o ArnView no futuro.
+3. USO DO BINÁRIO
+O binário oficial pode ser utilizado pelo usuário final para as finalidades normais do aplicativo, observadas as leis aplicáveis e os termos desta distribuição.
 
-4. CRÉDITO OBRIGATÓRIO
-Sempre que o titular conceder autorização para redistribuição, modificação,
-derivação ou reutilização dos elementos originais do ArnView, deverão ser mantidos
-os avisos de autoria e copyright e, no mínimo, a seguinte atribuição:
+A disponibilização do binário não concede autorização para vender, revender, sublicenciar, redistribuir comercialmente, incorporar em outro produto, remover créditos, reivindicar autoria ou explorar comercialmente os elementos originais do ArnView sem autorização prévia e expressa do titular.
+
+4. MODIFICAÇÃO E ENGENHARIA REVERSA
+Não é concedida licença para modificar, adaptar, desmontar, descompilar, realizar engenharia reversa ou produzir trabalhos derivados dos elementos proprietários do ArnView, exceto quando uma dessas atividades for expressamente permitida por lei aplicável e não puder ser contratualmente restringida.
+
+5. REDISTRIBUIÇÃO
+Qualquer redistribuição do ArnView depende de autorização expressa do titular, salvo quando acompanhada por termos específicos que concedam essa permissão.
+
+6. CRÉDITOS E AUTORIA
+Os avisos de autoria e copyright não podem ser removidos, ocultados ou falsificados.
+
+Crédito oficial:
 
 "ArnView — criado e desenvolvido por Alessandro Henriques Teixeira — Studio Arn."
 
-Não é permitido remover, ocultar, substituir ou falsificar os créditos do autor.
-Uma autorização específica não transfere autoria ou titularidade dos direitos.
+7. COMPONENTES DE TERCEIROS
+As licenças de terceiros prevalecem sobre este documento naquilo que se refere aos respectivos componentes. Nada nesta licença pretende retirar direitos concedidos diretamente por essas licenças.
 
-5. COMPONENTES DE TERCEIROS
-O ArnView utiliza componentes, bibliotecas, modelos e ferramentas de terceiros.
-Esses itens não são relicenciados por este documento. Permanecem sujeitos às suas
-respectivas licenças, avisos de copyright, marcas e condições de distribuição.
-Esta licença não pretende restringir direitos concedidos diretamente por terceiros.
+Consulte THIRD_PARTY_NOTICES.md e CREDITS.md.
 
-6. OUTRAS AUTORIZAÇÕES
-Qualquer uso, redistribuição, modificação, comercialização ou exploração dos
-elementos originais do ArnView que não esteja expressamente autorizado deve ser
-previamente acordado com o titular dos direitos.
+8. HISTÓRICO DO REPOSITÓRIO
+Materiais presentes em commits históricos podem pertencer a versões anteriores do projeto e permanecem sujeitos aos termos que se aplicavam quando foram publicados. Esta licença proprietária não pretende alterar retroativamente direitos que tenham sido validamente concedidos por licenças anteriores.
 
-Consulte CREDITS.md para informações adicionais sobre autoria e componentes de
-terceiros utilizados pelo projeto.
+9. AUTORIZAÇÕES ESPECÍFICAS
+Permissões adicionais, licenças comerciais ou autorizações de redistribuição podem ser concedidas separadamente pelo titular mediante acordo específico.
+
+Titular dos elementos originais:
+Alessandro Henriques Teixeira — Studio Arn
+Copyright © 2026.
