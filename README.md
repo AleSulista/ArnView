@@ -2,131 +2,154 @@
 
 **ArnView** é um visualizador e editor de imagens para macOS Intel desenvolvido por **Alessandro Henriques Teixeira — Studio Arn**.
 
-> **ArnView 0.7.9 é uma versão proprietária.** O repositório público é usado para apresentação do produto, documentação, histórico, créditos, capturas de tela e distribuição dos binários autorizados. O código-fonte da linha proprietária 0.7.x não é publicado.
+> **ArnView 0.7.9 é software proprietário.** Este repositório público existe para apresentação do produto, documentação, notas de versão, créditos, capturas de tela e distribuição dos binários autorizados. O código-fonte da linha proprietária não é publicado na branch principal.
 
-O projeto combina visualização rápida, edição por camadas e ferramentas inteligentes no mesmo ambiente.
+## Versão atual
 
-## ArnView 0.7.9 — Proprietário, nativo, leve e integrado
+**ArnView 0.7.9 — Native & Lightweight Edition — macOS Intel**
 
-A versão **0.7.9** representa uma mudança importante na arquitetura do ArnView. O objetivo foi reduzir dependências pesadas e aproximar o processamento dos recursos nativos do macOS, preservando dentro do aplicativo as ferramentas de edição e inteligência artificial.
+- Plataforma: macOS
+- Arquitetura: Intel **x86_64**
+- Distribuição: binário proprietário
+- Pacote oficial: `ArnView-0.7.9-Intel.dmg`
+- Tamanho do DMG publicado: **234.959.692 bytes**
+- SHA-256: `a9a0927c61eb56d496bfe2f362beb860265f04b81330b8dccc7de893bd7e6c52`
 
-O resultado é uma edição muito mais enxuta em relação às primeiras implementações baseadas em ambientes Python e grandes conjuntos de bibliotecas. Sempre que possível, o ArnView 0.7.9 utiliza **Core ML, Apple Vision e motores nativos compilados para Intel x86_64**.
+[Baixar ArnView 0.7.9 no GitHub Releases](https://github.com/AleSulista/ArnView/releases/tag/v0.7.9)
 
-Mesmo com a redução de peso, o aplicativo mantém seus mecanismos e modelos necessários integrados ao pacote. Isso permite que grande parte das ferramentas inteligentes seja executada localmente, sem depender de serviços de IA na nuvem.
+## O que é o ArnView
 
-### Visualizador
+O ArnView reúne em um único aplicativo:
 
-- visualização rápida de imagens;
+- visualizador rápido de imagens;
+- editor integrado;
+- sistema de múltiplas camadas;
+- ferramentas de texto, ajustes, seleção e composição;
+- recursos inteligentes executados localmente sempre que aplicável;
+- integração com mecanismos nativos do macOS, Apple Vision e Core ML.
+
+## Visualizador
+
 - navegação entre imagens da mesma pasta;
 - faixa de miniaturas;
-- **zoom de até 3200%**;
 - zoom por scroll e trackpad;
+- zoom de até **3200%**;
 - visualização 1:1;
-- rotação e tela cheia;
-- abertura pelo Finder, seletor e arrastar e soltar;
-- acesso direto ao editor a partir da imagem visualizada.
+- rotação;
+- tela cheia;
+- abertura pelo Finder, seletor de arquivos e arrastar e soltar;
+- acesso direto ao editor.
 
-### Editor e camadas
+## Editor e camadas
 
-- interface **ArnGlass**;
-- editor integrado ao visualizador;
-- sistema de múltiplas camadas;
-- seleção e manipulação direta das camadas na área de edição;
+- interface ArnGlass;
+- múltiplas camadas;
+- seleção e manipulação direta na área de edição;
 - movimentação, redimensionamento e reorganização de camadas;
 - transparência e opacidade;
-- histórico de alterações, desfazer e refazer;
-- ajustes contínuos de brilho, contraste, saturação, temperatura e matiz;
+- histórico de alterações;
+- desfazer e refazer;
+- brilho, contraste, saturação, temperatura e matiz;
 - preto e branco e sépia;
 - recorte;
-- texto sobre a imagem;
-- escolha completa de cores para texto, contorno e sombra;
-- sombra de texto com visualização em tempo real;
-- rotação de texto diretamente com o mouse;
 - pincel de desfoque;
-- copiar, recortar e colar seleções em novas camadas.
+- copiar, recortar e colar seleções;
+- texto com escolha completa de cores;
+- contorno e sombra;
+- visualização de sombra em tempo real;
+- rotação de texto diretamente com o mouse.
 
-### Ferramentas inteligentes integradas
+## Ferramentas inteligentes integradas
 
-O ArnView 0.7.9 concentra as ferramentas inteligentes na barra lateral do editor e utiliza mecanismos locais/nativos sempre que possível.
+A versão 0.7.9 concentra os recursos inteligentes no próprio fluxo de edição e privilegia processamento local.
 
-- **Remover fundo** — processamento integrado com MODNet/Core ML e auxiliares nativos de visão;
-- **Remover objeto** — preenchimento inteligente com LaMa/Core ML integrado;
-- **Seleção inteligente** — Apple Vision para identificação de primeiro plano e assuntos compatíveis;
-- **Seleção por clique** — MobileSAM/Core ML para seleção interativa de objetos;
-- **Melhoria inteligente automática**;
-- **Redução de ruído**;
-- **Clareamento/recuperação de fotos escuras**;
-- **Restauração fotográfica**;
-- **Melhoria de rostos**;
-- **remoção/redução de desfoque** com mecanismo nativo;
-- detectores nativos de pessoas e primeiro plano;
-- processamento e composição integrados ao sistema de camadas.
+- **Remover fundo** — MODNet/Core ML e mecanismos auxiliares nativos;
+- **Remover objeto** — LaMa/Core ML;
+- **Seleção inteligente** — Apple Vision;
+- **Seleção por clique** — MobileSAM/Core ML;
+- melhoria automática;
+- redução de ruído;
+- recuperação de fotos escuras;
+- restauração fotográfica;
+- melhoria de rostos;
+- redução de desfoque com mecanismo nativo;
+- detecção nativa de pessoas e primeiro plano.
 
-### Arquitetura nativa e leveza
+## Arquitetura 0.7.9
 
-A linha 0.7.9 reduz a dependência de ambientes externos e concentra o processamento no próprio aplicativo. Entre os componentes empregados estão:
+A linha 0.7.9 foi reorganizada para reduzir dependências externas e aproximar o processamento dos frameworks nativos do macOS. O pacote final distribui seus frameworks, motores e modelos necessários dentro do aplicativo, sem exigir instalação do Homebrew para executar a versão publicada.
 
-- **Apple Core ML** para execução local de modelos;
-- **Apple Vision** para segmentação e análise visual;
-- **LaMa/Core ML** para remoção de objetos;
-- **MODNet/Core ML** para remoção de fundo, especialmente em pessoas;
-- **MobileSAM/Core ML** para seleção inteligente por clique;
-- motores auxiliares nativos compilados para macOS Intel.
+Entre as tecnologias empregadas na distribuição estão:
 
-A prioridade desta versão é entregar um aplicativo mais compacto e responsivo sem transformar os recursos de IA em serviços externos. Os modelos necessários às funções distribuídas são incorporados ao pacote do ArnView.
+- Apple Core ML;
+- Apple Vision;
+- Qt 6;
+- MODNet;
+- LaMa;
+- MobileSAM;
+- motores auxiliares nativos compilados para Intel x86_64.
 
-## Capturas de tela — ArnView 0.7.9 Proprietário
+Os componentes de terceiros permanecem sujeitos às licenças de seus respectivos autores e projetos.
+
+## Capturas de tela
 
 ### Visualizador ArnGlass
-
-A interface principal mantém o foco total na imagem, com controles compactos e transparentes sobre o conteúdo.
 
 ![ArnView 0.7.9 — Visualizador ArnGlass](screenshots/0.7.9/01-arnview-079-visualizador.png)
 
 ### ArnView Editor
 
-O editor reúne ferramentas de seleção, texto, edição e inteligência artificial na barra lateral, mantendo o painel de Camadas e Ajustes compacto à direita.
+![ArnView 0.7.9 — Editor](screenshots/0.7.9/02-arnview-079-editor.png)
 
-![ArnView 0.7.9 — Editor, ferramentas inteligentes e camadas](screenshots/0.7.9/02-arnview-079-editor.png)
+> A galeria será atualizada com as capturas finais da versão 0.7.9.
 
-## Privacidade e processamento local
+## Instalação
 
-As ferramentas que utilizam os mecanismos integrados processam a imagem no próprio computador. Isso reduz a necessidade de enviar fotografias para serviços externos e permite que essas funções trabalhem localmente/offline.
+1. Baixe `ArnView-0.7.9-Intel.dmg` na área de Releases.
+2. Abra o DMG.
+3. Execute o ArnView ou copie o aplicativo para a pasta Aplicativos.
+
+A distribuição atual utiliza assinatura ad-hoc e não possui Apple Developer ID/notarização. Dependendo das configurações do Gatekeeper, o macOS pode exigir **botão direito → Abrir** na primeira execução.
 
 ## Compatibilidade
 
-- **Versão:** ArnView 0.7.9;
-- **modelo de distribuição:** proprietário;
-- **plataforma:** macOS Intel;
-- **arquitetura:** x86_64;
-- desenvolvido e testado na linha Intel do macOS utilizada durante o desenvolvimento;
-- Apple Silicon e Windows exigem builds próprios e não fazem parte desta distribuição Intel.
+A distribuição publicada da versão 0.7.9 é específica para:
 
-## Distribuição
+- macOS em computadores Intel;
+- arquitetura **x86_64**.
 
-A versão 0.7.9 é distribuída exclusivamente como **binário proprietário autorizado**. O código-fonte da linha 0.7.x não é publicado neste repositório.
+Apple Silicon e Windows exigem builds próprios e não fazem parte deste pacote.
 
-O código-fonte público histórico existente no repositório representa versões anteriores e não deve ser interpretado como código da edição 0.7.9 nem como concessão dos mesmos direitos sobre as versões proprietárias posteriores.
+## Privacidade e processamento local
 
-O pacote oficial da versão é identificado como **ArnView-0.7.9-Intel.dmg**.
+Os mecanismos integrados de edição e visão computacional da versão 0.7.9 foram projetados para processar as imagens localmente no computador sempre que aplicável, reduzindo a necessidade de enviar arquivos para serviços externos.
 
-> A distribuição atual pode não possuir Apple Developer ID/notarização. Nesse caso, o macOS poderá apresentar o aviso de desenvolvedor não identificado na primeira abertura.
+Consulte [`PRIVACY.md`](PRIVACY.md) para o resumo público de privacidade do produto.
+
+## Repositório público e código-fonte
+
+A branch principal deste repositório é destinada à **distribuição e documentação pública** do ArnView proprietário. O código-fonte atual da linha 0.7.x não é publicado.
+
+Materiais presentes em commits históricos podem pertencer a fases anteriores do projeto e permanecem sujeitos aos termos que se aplicavam quando foram publicados. A existência desses registros históricos não concede direitos sobre o código proprietário atual.
 
 ## Licenciamento
 
-- o conteúdo e código anteriormente publicados permanecem sujeitos aos termos existentes quando foram disponibilizados;
-- **ArnView 0.6.x, 0.7.x e versões proprietárias posteriores:** código-fonte fechado e não disponibilizado publicamente;
-- a disponibilização de um binário não concede automaticamente direito de modificar, desmontar, sublicenciar, vender ou redistribuir os elementos originais do ArnView fora das condições expressamente autorizadas;
-- todos os direitos sobre os elementos originais do ArnView permanecem reservados ao autor;
-- frameworks, modelos e demais componentes de terceiros continuam sujeitos às licenças de seus respectivos autores.
+ArnView 0.7.9 é distribuído sob licença proprietária. A disponibilização do binário não concede autorização para copiar, modificar, sublicenciar, vender, redistribuir ou explorar comercialmente os elementos originais do ArnView fora das condições expressamente autorizadas pelo titular.
+
+Frameworks, modelos, bibliotecas e demais componentes de terceiros não são relicenciados pelo Studio Arn e permanecem sujeitos às respectivas licenças.
+
+Consulte:
+
+- [`LICENSE`](LICENSE)
+- [`PROPRIETARY-NOTICE.md`](PROPRIETARY-NOTICE.md)
+- [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)
+- [`CREDITS.md`](CREDITS.md)
+- [`CHANGELOG.md`](CHANGELOG.md)
+- [`RELEASE-NOTES-0.7.9.md`](RELEASE-NOTES-0.7.9.md)
+- [`SUPPORT.md`](SUPPORT.md)
 
 ## Autoria
 
-- **Produto:** ArnView
-- **Criador e desenvolvedor:** **Alessandro Henriques Teixeira**
-- **Estúdio:** **Studio Arn**
-- **Ano:** 2026
+**ArnView — criado e desenvolvido por Alessandro Henriques Teixeira — Studio Arn.**
 
 Copyright © 2026 **Alessandro Henriques Teixeira — Studio Arn**. Todos os direitos reservados sobre os elementos originais do ArnView, observadas as licenças aplicáveis aos componentes de terceiros.
-
-Consulte também `CHANGELOG.md`, `CREDITS.md`, `THIRD_PARTY_NOTICES.md`, `PROPRIETARY-NOTICE.md` e `LICENSE`.
