@@ -1,37 +1,37 @@
-# ArnView 0.6.x / 0.7.x — Aviso de distribuição proprietária
+# ArnView — Aviso de distribuição proprietária
 
-A partir da linha **ArnView 0.6.x**, o desenvolvimento novo do ArnView segue um modelo **proprietário**. Este aviso inclui expressamente a linha **ArnView 0.7.x**, incluindo a versão **0.7.9**.
-
-## Escopo
-
-Este aviso se aplica ao código, integrações, interface, documentação e demais elementos originais desenvolvidos especificamente para as linhas proprietárias 0.6.x, 0.7.x e posteriores, salvo quando outro aviso ou contrato estabelecer condição diferente.
-
-Copyright © 2026 **Alessandro Henriques Teixeira — Studio Arn**. Todos os direitos reservados sobre os elementos originais.
+A partir da linha **ArnView 0.6.x**, o desenvolvimento novo do ArnView segue um modelo **proprietário**. Este aviso inclui expressamente a linha **0.7.x**, incluindo a versão **0.7.9**.
 
 ## Código-fonte
 
-O código-fonte das linhas proprietárias 0.6.x e 0.7.x não é disponibilizado publicamente neste repositório.
+O código-fonte atual das linhas proprietárias não é publicado na branch principal deste repositório. O repositório público é destinado à apresentação do produto, documentação, histórico, créditos, capturas de tela e distribuição dos binários autorizados.
 
-A presença de versões anteriores de código-fonte neste repositório não significa que versões proprietárias posteriores estejam sendo publicadas sob os mesmos termos. Cada versão deve ser interpretada conforme os avisos e condições aplicáveis no momento em que foi disponibilizada.
+Materiais existentes em commits históricos podem representar fases anteriores do projeto. A existência desses registros não significa que as versões proprietárias atuais estejam sendo publicadas sob os mesmos termos.
 
 ## Distribuição binária
 
-Versões binárias proprietárias do ArnView podem ser disponibilizadas separadamente na área de Releases ou por outros canais autorizados pelo titular dos direitos.
+A versão **ArnView 0.7.9** é distribuída como binário proprietário para **macOS Intel (x86_64)** por meio da área de Releases.
 
-A disponibilização de um binário não concede, por si só, autorização para copiar, modificar, desmontar, sublicenciar, vender, redistribuir ou explorar comercialmente os elementos originais do ArnView além do que for expressamente permitido pelos termos que acompanharem a distribuição.
+Pacote oficial:
 
-A versão **ArnView 0.7.9** é distribuída como binário proprietário para **macOS Intel (x86_64)**.
+`ArnView-0.7.9-Intel.dmg`
+
+SHA-256 da distribuição atual:
+
+`a9a0927c61eb56d496bfe2f362beb860265f04b81330b8dccc7de893bd7e6c52`
+
+A disponibilização do binário não concede, por si só, autorização para copiar, modificar, desmontar, sublicenciar, vender, redistribuir ou explorar comercialmente os elementos originais do ArnView além do que for expressamente permitido.
+
+## Elementos originais
+
+Copyright © 2026 **Alessandro Henriques Teixeira — Studio Arn**. Todos os direitos reservados sobre os elementos originais do ArnView.
 
 ## Componentes de terceiros
 
-Este aviso **não se aplica como relicenciamento** a componentes, frameworks, bibliotecas, modelos, runtimes ou ferramentas de terceiros.
+Este aviso não relicencia frameworks, bibliotecas, modelos, pesos, runtimes ou ferramentas de terceiros. Esses componentes permanecem sujeitos às respectivas licenças, avisos e condições de distribuição.
 
-Esses componentes continuam sujeitos às suas próprias licenças, avisos de copyright e condições de distribuição. Nenhuma disposição deste aviso pretende limitar direitos concedidos diretamente pelas licenças de terceiros.
+Consulte [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md), [`CREDITS.md`](CREDITS.md) e [`LICENSE`](LICENSE).
 
-Consulte [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) e [`CREDITS.md`](CREDITS.md).
-
-## Crédito
-
-Crédito oficial do projeto:
+## Crédito oficial
 
 > **ArnView — criado e desenvolvido por Alessandro Henriques Teixeira — Studio Arn.**
