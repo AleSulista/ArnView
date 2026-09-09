@@ -2,20 +2,28 @@
 
 Este arquivo registra publicamente a evolução do ArnView sem expor o código-fonte das versões proprietárias.
 
-## 0.7.9 — edição nativa e leve para macOS Intel
+## 0.7.9 — Native & Lightweight Edition — macOS Intel
 
-**Status:** versão finalizada para macOS Intel (x86_64)
+**Status:** versão finalizada e publicada para macOS Intel (x86_64)
 
-A versão 0.7.9 consolida a migração do ArnView para uma arquitetura muito mais nativa. O foco desta linha foi reduzir dependências pesadas, diminuir o peso da distribuição e manter as ferramentas inteligentes incorporadas ao aplicativo, usando Core ML, Apple Vision e motores nativos sempre que possível.
+### Distribuição final
 
-### Leveza e arquitetura
+- pacote: **ArnView-0.7.9-Intel.dmg**;
+- tamanho publicado: **234.959.692 bytes**;
+- SHA-256: `a9a0927c61eb56d496bfe2f362beb860265f04b81330b8dccc7de893bd7e6c52`;
+- distribuição proprietária;
+- aplicativo empacotado com os frameworks, motores e modelos necessários à versão publicada;
+- sem dependências absolutas de Homebrew no pacote final;
+- sem RPATHs Homebrew no pacote final;
+- arquitetura x86_64.
 
-- redução significativa da dependência de ambientes Python e grandes conjuntos de bibliotecas externas;
-- maior uso dos frameworks nativos do macOS;
-- modelos Core ML integrados ao aplicativo;
-- motores auxiliares compilados para Intel x86_64;
-- processamento local das ferramentas compatíveis;
-- arquitetura preparada para manter o editor compacto sem retirar os principais recursos inteligentes.
+### Arquitetura e leveza
+
+- maior uso de frameworks nativos do macOS;
+- Core ML e Apple Vision integrados ao fluxo de processamento;
+- redução de dependências externas e de ambientes auxiliares;
+- motores nativos compilados para Intel;
+- processamento local das ferramentas compatíveis.
 
 ### Inteligência artificial e visão computacional
 
@@ -23,52 +31,47 @@ A versão 0.7.9 consolida a migração do ArnView para uma arquitetura muito mai
 - remoção de objetos com LaMa/Core ML;
 - seleção inteligente baseada em Apple Vision;
 - seleção interativa por clique com MobileSAM/Core ML;
-- melhoria inteligente automática;
+- melhoria automática;
 - redução de ruído;
 - recuperação de fotos escuras;
 - restauração fotográfica;
 - melhoria de rostos;
-- remoção/redução de desfoque com mecanismo nativo;
-- detecção nativa de pessoas e primeiro plano;
-- integração das operações inteligentes com camadas, histórico e fluxo normal de edição.
+- redução de desfoque com mecanismo nativo;
+- detecção nativa de pessoas e primeiro plano.
 
 ### Editor
 
-- ferramentas inteligentes concentradas na barra lateral esquerda;
-- painel direito mais limpo, dedicado a camadas e ajustes;
-- sistema de camadas com seleção e manipulação direta;
-- copiar, recortar e colar seleções em novas camadas;
-- melhorias no trabalho com texto;
-- seletor completo de cores para texto, contorno e sombra;
-- expansão da sombra com visualização em tempo real;
-- rotação de texto diretamente pelo mouse;
-- manutenção dos ajustes contínuos, recorte, pincéis e histórico de edição.
+- ferramentas inteligentes na barra lateral esquerda;
+- painel direito dedicado a camadas e ajustes;
+- múltiplas camadas;
+- seleção e manipulação direta;
+- movimentação, redimensionamento e reorganização;
+- transparência e opacidade;
+- histórico, desfazer e refazer;
+- copiar, recortar e colar seleções;
+- edição de texto com cor, contorno, sombra e rotação;
+- sombra com visualização em tempo real;
+- ajustes contínuos de imagem;
+- recorte e pincel de desfoque.
 
 ### Visualizador
 
 - navegação rápida entre imagens;
 - miniaturas;
-- zoom por scroll/trackpad;
+- zoom por scroll e trackpad;
 - zoom de até 3200%;
 - visualização 1:1;
-- rotação e tela cheia;
-- integração direta entre visualizador e editor.
-
-### Distribuição
-
-- versão proprietária;
-- código-fonte da linha 0.7.x não publicado;
-- pacote de distribuição: **ArnView-0.7.9-Intel.dmg**;
-- recursos e modelos necessários às ferramentas distribuídas são incorporados ao pacote sempre que aplicável;
-- componentes de terceiros permanecem sujeitos às respectivas licenças.
+- rotação;
+- tela cheia;
+- integração direta com o editor.
 
 ## 0.6.0 — edição proprietária
 
-A linha 0.6.x marcou a transição do ArnView para o modelo proprietário e ampliou o editor, o sistema de camadas e os recursos locais de inteligência artificial. A versão introduziu a interface ArnGlass, remoção local de objetos com LaMa, MODNet/Core ML para pessoas, Apple Vision Foreground e diversos auxiliares locais.
+A linha 0.6.x marcou a transição do desenvolvimento novo do ArnView para o modelo proprietário e ampliou o editor, o sistema de camadas e os recursos locais de inteligência artificial.
 
-## 0.4.0 — versão pública anterior
+## 0.4.0 — fase pública anterior
 
-A versão 0.4.0 consolidou o ArnView como visualizador e editor de imagens para macOS Intel. O código público histórico permanece como registro da fase anterior do projeto e não representa o código das versões proprietárias atuais.
+A versão 0.4.0 representa uma fase histórica anterior do projeto. Materiais existentes em commits antigos permanecem sujeitos aos termos que se aplicavam quando foram publicados e não representam o código proprietário atual.
 
 ## Autoria
 
