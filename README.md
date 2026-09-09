@@ -2,9 +2,11 @@
 
 **ArnView** é um visualizador e editor de imagens para macOS Intel desenvolvido por **Alessandro Henriques Teixeira — Studio Arn**.
 
-O projeto combina visualização rápida, edição por camadas e ferramentas inteligentes no mesmo ambiente. A linha atual é proprietária: o repositório mantém públicas as informações de versão, recursos, créditos e distribuição, enquanto o código-fonte das versões proprietárias não é publicado.
+> **ArnView 0.7.9 é uma versão proprietária.** O repositório público é usado para apresentação do produto, documentação, histórico, créditos, capturas de tela e distribuição dos binários autorizados. O código-fonte da linha proprietária 0.7.x não é publicado.
 
-## ArnView 0.7.9 — versão nativa, leve e integrada
+O projeto combina visualização rápida, edição por camadas e ferramentas inteligentes no mesmo ambiente.
+
+## ArnView 0.7.9 — Proprietário, nativo, leve e integrado
 
 A versão **0.7.9** representa uma mudança importante na arquitetura do ArnView. O objetivo foi reduzir dependências pesadas e aproximar o processamento dos recursos nativos do macOS, preservando dentro do aplicativo as ferramentas de edição e inteligência artificial.
 
@@ -73,7 +75,7 @@ A linha 0.7.9 reduz a dependência de ambientes externos e concentra o processam
 
 A prioridade desta versão é entregar um aplicativo mais compacto e responsivo sem transformar os recursos de IA em serviços externos. Os modelos necessários às funções distribuídas são incorporados ao pacote do ArnView.
 
-## Capturas de tela — ArnView 0.7.9
+## Capturas de tela — ArnView 0.7.9 Proprietário
 
 ### Visualizador ArnGlass
 
@@ -94,6 +96,7 @@ As ferramentas que utilizam os mecanismos integrados processam a imagem no próp
 ## Compatibilidade
 
 - **Versão:** ArnView 0.7.9;
+- **modelo de distribuição:** proprietário;
 - **plataforma:** macOS Intel;
 - **arquitetura:** x86_64;
 - desenvolvido e testado na linha Intel do macOS utilizada durante o desenvolvimento;
@@ -101,7 +104,9 @@ As ferramentas que utilizam os mecanismos integrados processam a imagem no próp
 
 ## Distribuição
 
-A versão proprietária é distribuída como aplicativo compilado. O código-fonte público histórico do repositório não representa o código da linha 0.7.9.
+A versão 0.7.9 é distribuída exclusivamente como **binário proprietário autorizado**. O código-fonte da linha 0.7.x não é publicado neste repositório.
+
+O código-fonte público histórico existente no repositório representa versões anteriores e não deve ser interpretado como código da edição 0.7.9 nem como concessão dos mesmos direitos sobre as versões proprietárias posteriores.
 
 O pacote oficial da versão é identificado como **ArnView-0.7.9-Intel.dmg**.
 
@@ -110,7 +115,8 @@ O pacote oficial da versão é identificado como **ArnView-0.7.9-Intel.dmg**.
 ## Licenciamento
 
 - o conteúdo e código anteriormente publicados permanecem sujeitos aos termos existentes quando foram disponibilizados;
-- **ArnView 0.6.x, 0.7.x e versões proprietárias posteriores:** código-fonte não disponibilizado publicamente;
+- **ArnView 0.6.x, 0.7.x e versões proprietárias posteriores:** código-fonte fechado e não disponibilizado publicamente;
+- a disponibilização de um binário não concede automaticamente direito de modificar, desmontar, sublicenciar, vender ou redistribuir os elementos originais do ArnView fora das condições expressamente autorizadas;
 - todos os direitos sobre os elementos originais do ArnView permanecem reservados ao autor;
 - frameworks, modelos e demais componentes de terceiros continuam sujeitos às licenças de seus respectivos autores.
 
