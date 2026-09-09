@@ -73,6 +73,20 @@ A linha 0.7.9 reduz a dependência de ambientes externos e concentra o processam
 
 A prioridade desta versão é entregar um aplicativo mais compacto e responsivo sem transformar os recursos de IA em serviços externos. Os modelos necessários às funções distribuídas são incorporados ao pacote do ArnView.
 
+## Capturas de tela — ArnView 0.7.9
+
+### Visualizador ArnGlass
+
+A interface principal mantém o foco total na imagem, com controles compactos e transparentes sobre o conteúdo.
+
+![ArnView 0.7.9 — Visualizador ArnGlass](screenshots/0.7.9/01-arnview-079-visualizador.png)
+
+### ArnView Editor
+
+O editor reúne ferramentas de seleção, texto, edição e inteligência artificial na barra lateral, mantendo o painel de Camadas e Ajustes compacto à direita.
+
+![ArnView 0.7.9 — Editor, ferramentas inteligentes e camadas](screenshots/0.7.9/02-arnview-079-editor.png)
+
 ## Privacidade e processamento local
 
 As ferramentas que utilizam os mecanismos integrados processam a imagem no próprio computador. Isso reduz a necessidade de enviar fotografias para serviços externos e permite que essas funções trabalhem localmente/offline.
